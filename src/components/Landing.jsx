@@ -102,9 +102,6 @@ const Landing = ({ setActiveSection, setAudioPlaying }) => {
         <div className="space-y-4">
           {/* ... (tombol dan audio indicator tetap sama) */}
 
-          {/* Fallback play button */}
-          {renderFallbackPlayButton()}
-
           <button
             onClick={() => setActiveSection("gallery")}
             className="text-pink-600 hover:text-pink-700 font-medium underline decoration-dotted mt-4"
